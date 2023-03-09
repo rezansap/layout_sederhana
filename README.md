@@ -27,6 +27,7 @@
                 elit, iaculis innisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,
                 vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc
                 pretium ac.</p>
+                <button href="#" class="button">Learn More >></button>
         </section>
         <section id="wrapper">
             <section id="main">
@@ -35,19 +36,19 @@
                         <img src="https://dummyimage.com/120/db7d25/fff.png" alt="" class="image-circle">
                         <h3>Heading</h3>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
-                        <a href="#" class="btn btn-default">View detail</a>
+                        <button href="#" class="button">View detail</button>
                     </div>
                     <div class="box">
                         <img src="https://dummyimage.com/120/3e73e6/fff.png" alt="" class="image-circle">
                         <h3>Heading</h3>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
-                        <a href="#" class="btn btn-default">View detail</a>
+                        <button href="#" class="button">View detail</button>
                     </div>
                     <div class="box">
                         <img src="https://dummyimage.com/120/71e6d4/fff.png" alt="" class="image-circle">
                         <h3>Heading</h3>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
-                        <a href="#" class="btn btn-default">View detail</a>
+                        <button href="#" class="button">View detail</button>
                     </div>
                 </div>
 
@@ -205,17 +206,20 @@ nav a:hover {
     font-size: 15px;
     margin-bottom: 20px;
 }
-button{
-    font-size: 14px;
-    background-color: #3f3f3f;
-    color: rgb(59, 58, 58);
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin-top: 8x;
+.button {
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
 }
-button :hover{
-    opacity: 0,9;
-}
+
 
 /* main content */
 #wrapper {
@@ -339,6 +343,7 @@ box img {
 .entry .right-img {
     float: right;
 }
+
 ```
 
 ## screenshot code untuk CSS
